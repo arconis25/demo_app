@@ -1,7 +1,4 @@
 DemoApp::Application.routes.draw do
-  get "blake/new"
-
-  get "blake/destroy"
 
   resources :users
 
