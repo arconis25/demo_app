@@ -1,4 +1,8 @@
 DemoApp::Application.routes.draw do
+  get "blake/new"
+
+  get "blake/destroy"
+
   resources :users
 
   # The priority is based upon order of creation:
